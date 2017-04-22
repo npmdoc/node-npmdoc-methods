@@ -1,9 +1,14 @@
-# api documentation for  [methods (v1.1.2)](https://github.com/jshttp/methods)  [![npm package](https://img.shields.io/npm/v/npmdoc-methods.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-methods) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-methods.svg)](https://travis-ci.org/npmdoc/node-npmdoc-methods)
+# npmdoc-methods
+
+#### api documentation for  [methods (v1.1.2)](https://github.com/jshttp/methods)  [![npm package](https://img.shields.io/npm/v/npmdoc-methods.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-methods) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-methods.svg)](https://travis-ci.org/npmdoc/node-npmdoc-methods)
+
 #### HTTP methods that node supports
 
-[![NPM](https://nodei.co/npm/methods.png?downloads=true)](https://www.npmjs.com/package/methods)
+[![NPM](https://nodei.co/npm/methods.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/methods)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-methods/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-methods_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-methods/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-methods/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-methods/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-methods/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-methods/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-methods/build/screenCapture.npmPackageListing.svg)
 
@@ -24,17 +29,14 @@
     },
     "contributors": [
         {
-            "name": "Douglas Christopher Wilson",
-            "email": "doug@somethingdoug.com"
+            "name": "Douglas Christopher Wilson"
         },
         {
             "name": "Jonathan Ong",
-            "email": "me@jongleberry.com",
             "url": "http://jongleberry.com"
         },
         {
             "name": "TJ Holowaychuk",
-            "email": "tj@vision-media.ca",
             "url": "http://tjholowaychuk.com"
         }
     ],
@@ -66,25 +68,20 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "tjholowaychuk",
-            "email": "tj@vision-media.ca"
+            "name": "tjholowaychuk"
         },
         {
-            "name": "jonathanong",
-            "email": "jonathanrichardong@gmail.com"
+            "name": "jonathanong"
         },
         {
-            "name": "jongleberry",
-            "email": "jonathanrichardong@gmail.com"
+            "name": "jongleberry"
         },
         {
-            "name": "dougwilson",
-            "email": "doug@somethingdoug.com"
+            "name": "dougwilson"
         }
     ],
     "name": "methods",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jshttp/methods.git"
@@ -94,52 +91,10 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
     },
-    "version": "1.1.2"
+    "version": "1.1.2",
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module methods](#apidoc.module.methods)
-1.  string <span class="apidocSignatureSpan">methods.</span>0
-1.  string <span class="apidocSignatureSpan">methods.</span>1
-1.  string <span class="apidocSignatureSpan">methods.</span>10
-1.  string <span class="apidocSignatureSpan">methods.</span>11
-1.  string <span class="apidocSignatureSpan">methods.</span>12
-1.  string <span class="apidocSignatureSpan">methods.</span>13
-1.  string <span class="apidocSignatureSpan">methods.</span>14
-1.  string <span class="apidocSignatureSpan">methods.</span>15
-1.  string <span class="apidocSignatureSpan">methods.</span>16
-1.  string <span class="apidocSignatureSpan">methods.</span>17
-1.  string <span class="apidocSignatureSpan">methods.</span>18
-1.  string <span class="apidocSignatureSpan">methods.</span>19
-1.  string <span class="apidocSignatureSpan">methods.</span>2
-1.  string <span class="apidocSignatureSpan">methods.</span>20
-1.  string <span class="apidocSignatureSpan">methods.</span>21
-1.  string <span class="apidocSignatureSpan">methods.</span>22
-1.  string <span class="apidocSignatureSpan">methods.</span>23
-1.  string <span class="apidocSignatureSpan">methods.</span>24
-1.  string <span class="apidocSignatureSpan">methods.</span>25
-1.  string <span class="apidocSignatureSpan">methods.</span>26
-1.  string <span class="apidocSignatureSpan">methods.</span>27
-1.  string <span class="apidocSignatureSpan">methods.</span>28
-1.  string <span class="apidocSignatureSpan">methods.</span>29
-1.  string <span class="apidocSignatureSpan">methods.</span>3
-1.  string <span class="apidocSignatureSpan">methods.</span>30
-1.  string <span class="apidocSignatureSpan">methods.</span>31
-1.  string <span class="apidocSignatureSpan">methods.</span>32
-1.  string <span class="apidocSignatureSpan">methods.</span>4
-1.  string <span class="apidocSignatureSpan">methods.</span>5
-1.  string <span class="apidocSignatureSpan">methods.</span>6
-1.  string <span class="apidocSignatureSpan">methods.</span>7
-1.  string <span class="apidocSignatureSpan">methods.</span>8
-1.  string <span class="apidocSignatureSpan">methods.</span>9
-
-
-
-# <a name="apidoc.module.methods"></a>[module methods](#apidoc.module.methods)
 
 
 
